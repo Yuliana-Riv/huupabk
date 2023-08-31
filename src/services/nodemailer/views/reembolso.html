@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuenta Nueva</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        margin: 0px !important;
+        height: 100vh;
+      }
+
+      #app {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        height: auto;
+        /*background: #161616;*/
+      }
+      .mailb {
+        width: 45.1%;
+        background: #e8e8e8;
+        height: fit-content;
+        margin-left: 27.448%;
+      }
+      .bnrpc {
+        display: block;
+        width: 100%;
+      }
+      .bnrmo {
+        display: none;
+      }
+      .padco {
+        padding: 9.115% 9.625%;
+        background-color: white;
+      }
+      .mailb .tl {
+        font-size: 2vw;
+        line-height: 2vw;
+        font-weight: bold;
+        color: #E42828;
+        text-align: center;
+
+      }
+      .mailb .desc {
+        margin-top: 13.958%;
+        font-size: 1.3vw;
+        line-height: 1vw;
+        font-family: monospace;
+        text-align: center;
+        margin-bottom:5%;
+      }
+      .mailb .info.comments {
+        display: block;
+      }
+      .mailb .data2 {
+        color: #FFB800;
+        font-family: monospace;
+        font-size: 1.4vw;
+        line-height: 1.4vw;
+        font-weight: bold;
+        text-align: center;
+      }
+      .mailb .comments .data2 {
+        color: black;
+        font-size: 1vw;
+        line-height: 1vw;
+      }
+
+.tl{
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+
+.tl1{
+  font-size: 1vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+  color: black;
+  text-transform: lowercase;
+
+}
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+
+.sec2 > div {
+  width: 50%;
+}
+
+.desc1{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9125vw;
+    margin-top: 13.958%;
+}
+
+.desc2{
+    text-align: center;
+    font-size: 0.9125vw;
+    margin-top: 13.958%;
+}
+
+.desc3{
+    text-align: center;
+    font-size: 0.9125vw;
+    margin-top: 13.958%;
+    font-weight: bold;
+    margin-bottom: 15vw;
+}
+
+
+
+
+
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 0;
+          background-color: white;
+        }
+        .padco {
+          padding: 9.115% 0%;
+          /*padding: 9.115% 9.625%;*/
+          background-color: white;
+        }
+        .mailb {
+          width: 100%;
+          margin-left: 0;
+        }
+        .bnrpc {
+          display: none;
+        }
+        .bnrmo {
+          display: block;
+          width: 100%;
+        }
+        .mailb .tl {
+          font-size: 8vw;
+          line-height: 10vw;
+          padding: 0% 9.625%;
+          margin-bottom: 12.80193236714976vw;
+        }
+        .mailb .desc {
+          /*margin: 20.958% 0;*/
+          font-size: 5vw;
+          line-height: 5vw;
+          padding: 0% 9.625%;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-align: center;
+          margin-bottom: 5vw;
+        }
+        .mailb .data1 {
+          font-size: 5vw;
+          line-height: 5vw;
+          width: 40vw;
+          padding: 0% 9.625%;
+        }
+        .mailb .data2 {
+          font-size: 6.4vw;
+          line-height: 6.4vw;
+          color: #FFB800;
+          padding: 0% 9.625%;
+          text-align: center;
+          margin-bottom: 10.144927536231885vw;
+        }
+        .mailb .info.comments {
+          padding: 0% 9.625% 0%;
+          margin-bottom: 0%;
+          border-bottom: none;
+        }
+        .mailb .comments .data2 {
+          font-size: 5vw;
+          line-height: 5vw;
+        }
+.div1{
+  border-bottom: 2vw;
+}
+
+.tl1{
+  font-size: 7.246376811594203vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+  color: black;
+  text-transform: lowercase;
+
+}
+
+.tl{
+  font-weight: bold;
+  font-size: 8.454106280193237vw;
+  color: #E42828;
+  text-align: center;
+  margin-left: 16vw;
+  margin-right: 16vw;
+}
+
+.sec3{
+  border-top: white;
+}
+
+.cont1{
+    margin-left: 14.734299516908212vw;
+    margin-right: 14.734299516908212vw;
+}
+
+.desc1{
+font-style: italic;
+font-size: 4.830917874396135vw;
+text-align: center;
+margin-bottom: 16.183574879227052vw;
+}
+
+.desc2{
+font-size: 4.830917874396135vw;
+text-align: center;
+margin-bottom: 9.66183574879227vw;
+
+}
+
+.desc3{
+font-weight: bold;
+font-size: 4.830917874396135vw;
+text-align: center;
+margin-bottom: 18.84057971014493vw;
+
+}
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="mailb">
+        <img
+          src="../../../../uploads/images/Slide.png"
+          alt="banner"
+          class="bnrpc"
+        />
+        <img
+          src="../../../../uploads/images/Slide.png"
+          alt="banner"
+          class="bnrmo"
+        />
+        <div class="padco">
+          <p class="tl">
+            Sentimos que tu compra no haya sido lo esperado.
+          </p>
+        
+          <div class="cont1">
+
+            <p class="desc1">Hemos iniciado el proceso de devolución. En caso de que sea aprobado, podrás recuperar tu inversión de forma rápida y segura.</p>
+
+            <p class="desc2">Solicitud de rembolso</p>
+
+            <p class="desc3">Tu número de seguimiento es:</p>
+            <p class="data2">{{numSeguimiento}}</p>
+
+
+          </div>
+
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
